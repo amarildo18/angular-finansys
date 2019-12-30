@@ -44,7 +44,7 @@ export class InMemoryDatabase implements InMemoryDbService {
         id: 3,
         name: 'Pagamento de Impostos',
         description: 'descricao do pagamento',
-        type: 'expense',
+        type: 'revenue',
         amount: '80,90',
         date: '14/10/2019',
         paid: true,
