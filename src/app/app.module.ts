@@ -9,6 +9,8 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDatabase } from './in-memory-database';
 import { ToastrModule } from 'ngx-toastr';
 
+import { ImageCropperModule } from 'ngx-image-cropper';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -20,6 +22,7 @@ import { ToastrModule } from 'ngx-toastr';
     HttpClientModule,
     ToastrModule,
     ToastrModule.forRoot(),
+    ImageCropperModule,
     HttpClientInMemoryWebApiModule.forRoot(InMemoryDatabase)
   ],
   providers: [],

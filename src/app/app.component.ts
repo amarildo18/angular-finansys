@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ImageCroppedEvent } from 'ngx-image-cropper';
 
 @Component({
   selector: 'app-root',
